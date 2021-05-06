@@ -20,7 +20,7 @@ print('\nList of all Appication profiles:')
 aps = AppProfile.get(session,tenant)
 for x in aps:
     print(x.name)
-    if x.name=='Profile1':
+    if x.name=='Profile':
         ap=x
 #print(type(ap))
 
